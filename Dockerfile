@@ -1,4 +1,4 @@
-FROM python:2.7-wheezy
+FROM mid/builder-python-35-centos7
 
 # Install locust
 RUN pip install pyzmq locustio faker
